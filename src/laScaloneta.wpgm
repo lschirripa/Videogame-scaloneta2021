@@ -1,0 +1,12 @@
+import wollok.game.*
+import messi.*
+import scalonetaInGame.*
+import backGroundsYSounds.*
+
+program juego {
+	game.title("la scaloneta")
+	game.height(10)
+	game.width(15)
+	configuracion.darInicio() 
+	game.start()
+}
